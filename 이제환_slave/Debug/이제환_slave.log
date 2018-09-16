@@ -1,0 +1,10 @@
+﻿  SpriteRandomSlave.cpp
+c:\network\이제환_slave\이제환_slave\spriterandomslave.cpp(286): warning C4473: 'sscanf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  c:\network\이제환_slave\이제환_slave\spriterandomslave.cpp(286): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 10개 필요하지만 9개가 제공되었습니다.
+  c:\network\이제환_slave\이제환_slave\spriterandomslave.cpp(286): note: 누락된 variadic 인수 10이(가) 서식 문자열 '%d'에 필요합니다.
+c:\network\이제환_slave\이제환_slave\spriterandomslave.cpp(286): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\network\이제환_slave\이제환_slave\spriterandomslave.cpp(287): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+  이제환_slave.vcxproj -> C:\network\이제환_slave\Debug\이제환_slave.exe
+  이제환_slave.vcxproj -> C:\network\이제환_slave\Debug\이제환_slave.pdb (Partial PDB)

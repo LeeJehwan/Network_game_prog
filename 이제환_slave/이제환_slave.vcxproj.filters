@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tcpClientPacket.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRandomSlave.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DDUTIL.CPP">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DSUTIL.CPP">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DDUTIL.H">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DSUTIL.H">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="wspiapi.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="wtpipv6.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ddraw.lib">
+      <Filter>리소스 파일</Filter>
+    </Library>
+    <Library Include="dxguid.lib">
+      <Filter>리소스 파일</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="msvcr100d.dll">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="back_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ending1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ending2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="gameover1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="gameover2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="number.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="pop.BMP">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="shoot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="spritesheet_complete.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="spritesheet_players.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="start_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="start_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="back_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Casual game track.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Casual-game-track.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="DM-CGS-07.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="DM-CGS-17.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Item2A.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="No Hope.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Photon gun shot.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="POL-chubby-cat-short.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Riverside Ride Long Loop.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
